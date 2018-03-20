@@ -11,4 +11,4 @@ function printHTML (html) {
   console.log(html);
 }
 
-getHTML(requestOptions);
+getHTML(requestOptions, printHTML);
